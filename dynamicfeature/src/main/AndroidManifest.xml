@@ -9,6 +9,16 @@
         <dist:delivery>
             <dist:on-demand />
         </dist:delivery>
+
         <dist:fusing dist:include="true" />
     </dist:module>
+
+    <application>
+        <activity
+            android:name=".DynamicActivity"
+            android:exported="false"
+            android:label="@string/title_activity_dynamic"
+            android:theme="@style/Theme.DynamicModuleExample.NoActionBar" />
+    </application>
+
 </manifest>
